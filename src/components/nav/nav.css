@@ -1,0 +1,17 @@
+.nav {
+    width: 60%;
+    margin: 3% 20%;
+}
+
+.nav a {
+    color: black;
+    font-family: Raleway;
+    margin: 0% 5% 0% 0%;
+
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.nav a:hover {
+    color: rgba(0,0,0,0.8)
+}
