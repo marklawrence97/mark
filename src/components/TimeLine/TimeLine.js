@@ -24,7 +24,7 @@ const TimeLine = () => {
                 title="TAP London"
                 role="Technical Consultant"
                 date="Oct 2019 - Current"
-                description=" Provide custom solutions, such as creating internal-facing web apps and creating data-driven models, and other support on Marketing Projects for clients such as Metlife, Allianz and Sears."
+                description=" Provide custom solutions for the Adobe Marketing Cloud. This has involved creating internal-facing web apps and implementing data-driven customer modelling, for variety of clients including as Metlife, Allianz and Sears."
                 />
             <TimeLineContent
                 position="right"
