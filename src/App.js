@@ -16,8 +16,9 @@ function App() {
           <Nav />
           <Switch>
             <Route path="/" component={Profile} exact />
-            <Route path="/post/:id" component={PostPage} />
-            <Route path="/home" component={Profile} exact />
+            <Route path="/post/:id" component={PostPage} exact/>
+            <Route path="/mark/post/:id" component={PostPage} exact/>
+            <Route path="/mark" component={Profile} exact />
             <Route component={Error} />
           </Switch>
           <Footer />

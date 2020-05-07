@@ -6,16 +6,16 @@ const Nav = () => {
     return (
         <div className="nav">
             <div className="ui divider top"></div>
-                <Link smooth to={'/#profile'}>
+                <Link smooth to={'/mark/#profile'}>
                     Profile
                 </Link>
-                <Link smooth to={'/#posts'}>
+                <Link smooth to={'/mark/#posts'}>
                     Posts
                 </Link>
-                <Link smooth to={'/#projects'}>
+                <Link smooth to={'/mark/#projects'}>
                     Projects
                 </Link>
-                <Link smooth to={'/#resume'}>
+                <Link smooth to={'/mark/#resume'}>
                     Resume
                 </Link>
             <div className="ui divider bottom"></div>
