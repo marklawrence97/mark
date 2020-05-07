@@ -17,18 +17,21 @@ const TimeLine = () => {
                 title="University of Bath"
                 role="Computer Science MSc"
                 date="May 2020 - Current"
+                description="Key Modules: Artificial Intelligence, Human Computer Interaction, Intelligent Control and Cognitive Systems"
                 />
             <TimeLineContent
                 position="left"
                 title="TAP London"
                 role="Technical Consultant"
                 date="Oct 2019 - Current"
+                description=" Provide custom solutions, such as creating internal-facing web apps and creating data-driven models, and other support on Marketing Projects for clients such as Metlife, Allianz and Sears."
                 />
             <TimeLineContent
                 position="right"
                 title="University of Leeds"
                 role="Mathematics BSc"
                 date="Sep 2015 - June 2019"
+                description="Dissertation title: The Spatial Prisoner’s Dilemma and the Evolution of Cooperation."
                 />
         </div>
         <div className="timeline-bottom">

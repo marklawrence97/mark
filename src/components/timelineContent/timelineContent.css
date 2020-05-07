@@ -48,10 +48,28 @@
   
   .date {
     font-family: 'Raleway';
-    font-size: 20px;
+    font-size: 14px;
     line-height: 34px;
     font-weight: 300;
     font-style: italic;
+    margin-block-start: 1em!important;
+    margin-block-end: 1em!important;
+    margin-inline-start: 0px!important;
+    margin-inline-end: 0px!important
+  }
+
+  .info {
+    display: flex;
+  }
+
+  @media screen and (min-width: 700px) {
+    .mobile {
+      display: none;
+    }
+
+    .timeline-content {
+      padding: 0em 1em!important;
+    }
   }
 
 @media screen and (max-width: 700px) {
@@ -81,7 +99,10 @@
         border-radius: 50%;
         z-index: 2;
       }
-
+      
+      .desktop {
+        display: none;
+      }
 }
 
 
