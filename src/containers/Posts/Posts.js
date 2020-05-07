@@ -50,7 +50,8 @@ class Posts extends React.Component {
                     <div className="ui stackable three column grid cards">
                             {this.props.posts.map(x => 
                             <div className="column" key={x.id}>
-                                <Post 
+                                <Post
+                                    url={x.url}
                                     header={x.header} 
                                     image={x.image}
                                     description={x.description}

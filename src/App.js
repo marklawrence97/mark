@@ -1,22 +1,27 @@
 import React from 'react';
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Header from "./components/header/header";
 import Nav from './components/nav/nav';
-import Bio from './components/Bio/bio';
-import Posts from './containers/Posts/Posts';
-import TimeLine from './components/TimeLine/TimeLine';
 import Footer from './components/Footer/footer';
-import { posts, projects } from './posts';
+import Profile from './containers/Profile/Profile';
+import PostPage from './containers/PostPage/PostPage';
+import Error from './error/Error'
+
 
 function App() {
   return (
     <div className="App">
-        <Header/>
-        <Nav />
-        <Bio />
-        <Posts title={"Posts"} posts={posts}/>
-        <Posts title={"Projects"} posts={projects}/>
-        <TimeLine />
-        <Footer />
+        <BrowserRouter>
+          <Header/>
+          <Nav />
+          <Switch>
+            <Route path="/" component={Profile} exact />
+            <Route path="/post/:id" component={PostPage} />
+            <Route path="/home" component={Profile} exact />
+            <Route component={Error} />
+          </Switch>
+          <Footer />
+        </BrowserRouter>
     </div>
   );
 }

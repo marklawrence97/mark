@@ -1,22 +1,23 @@
 import React from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
 import './nav.css'
 
 const Nav = () => {
     return (
         <div className="nav">
             <div className="ui divider top"></div>
-                <a href="">
+                <Link smooth to={'/#profile'}>
                     Profile
-                </a>
-                <a href="">
+                </Link>
+                <Link smooth to={'/#posts'}>
                     Posts
-                </a>
-                <a href="">
+                </Link>
+                <Link smooth to={'/#projects'}>
                     Projects
-                </a>
-                <a href="">
+                </Link>
+                <Link smooth to={'/#resume'}>
                     Resume
-                </a>
+                </Link>
             <div className="ui divider bottom"></div>
         </div>
     )
