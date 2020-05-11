@@ -4,11 +4,15 @@ import './timeline.css';
 
 
 const TimeLine = () => {
+    const pdfUrl = process.env.PUBLIC_URL + '/resume.pdf'
     return (
         <>
         <h2 style={{marginLeft: "20%"}}>
             Resume
         </h2>
+        <div style={{marginLeft: "20%", marginBottom: "2%"}}>
+            <p>You can view my resume <a href={pdfUrl} target="_blank">here</a>.</p>
+        </div>
         <div className="timeline-fade">
         </div>
         <div className="timeline">
@@ -24,7 +28,7 @@ const TimeLine = () => {
                 title="TAP London"
                 role="Technical Consultant"
                 date="Oct 2019 - Current"
-                description=" Provide custom solutions for the Adobe Marketing Cloud. This has involved creating internal-facing web apps and implementing data-driven customer modelling, for variety of clients including as Metlife, Allianz and Sears."
+                description=" Provide custom solutions for the Adobe Marketing Cloud. This has involved creating internal-facing web apps and implementing data-driven customer models, for a variety of clients including Metlife, Allianz and Sears."
                 />
             <TimeLineContent
                 position="right"

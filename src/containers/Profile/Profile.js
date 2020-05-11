@@ -5,6 +5,7 @@ import TimeLine from '../../components/TimeLine/TimeLine';
 import { posts, projects } from '../../posts'
 
 const Profile = () => {
+
     return (
         <>
             <a id="profile"/>
