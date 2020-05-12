@@ -5,13 +5,14 @@ import "./prism.css";
 
 class PostPage extends React.Component {
   state = {
-    articleInfo: Posts[1],
+    articleInfo: Posts.filter(post => post.name == this.props.match.params.id)[0],
     articles: Posts,
     upvotes: 0,
   };
 
   render() {
     const { articleInfo } = this.state;
+    console.log(this.props.match.params.id)
 
     return (
       <div style={{margin: "3% 20%"}}>

@@ -3,7 +3,7 @@ let Posts = [];
 export default Posts = [
     {
         "_id": "5e3c6fd776578828f9c6784f",
-        "name": "first-post",
+        "name": "cs50",
         "title": "First Blog Post",
         "upvotes": 89,
         "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur sapien in tortor condimentum",
@@ -42,7 +42,7 @@ export default Posts = [
     {
         "_id": "5e3c6fef76578828f9c67850",
         "id": 539827,
-        "name": "second-post",
+        "name": "gametheory",
         "title": "Second Blog Post",
         "upvotes": 64,
         "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur sapien in tortor condimentum",
