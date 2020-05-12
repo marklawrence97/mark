@@ -6,14 +6,16 @@ import './Posts.css';
 class Posts extends React.Component {
     state = {
         topClass: "active item",
-        allPostsClass: "item"
+        allPostsClass: "item",
+        posts: this.props.topPosts,
     }
 
     handleTopClick = () => {
         if (this.state.topClass !== "active item") {
             this.setState({
                 topClass: "active item",
-                allPostsClass: "item"
+                allPostsClass: "item",
+                posts: this.props.topPosts
             })
         }
     }
@@ -22,7 +24,8 @@ class Posts extends React.Component {
         if (this.state.allPostsClass !== "active item") {
             this.setState({
                 topClass: "item",
-                allPostsClass: "active item"
+                allPostsClass: "active item",
+                posts: this.props.posts
             })
         }
     }
@@ -48,7 +51,7 @@ class Posts extends React.Component {
                 </div>
                 <div className="ui bottom attached segment">
                     <div className="ui stackable three column grid cards">
-                            {this.props.posts.map(x => 
+                            {this.state.posts.map(x => 
                             <div className="column" key={x.id}>
                                 <Post
                                     url={x.url}

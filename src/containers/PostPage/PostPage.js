@@ -12,7 +12,6 @@ class PostPage extends React.Component {
 
   render() {
     const { articleInfo } = this.state;
-    console.log(this.props.match.params.id)
 
     return (
       <div style={{margin: "3% 20%"}}>

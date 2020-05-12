@@ -5,6 +5,8 @@ export default Posts = [
         "_id": "5e3c6fd776578828f9c6784f",
         "name": "cs50",
         "title": "First Blog Post",
+        "topPost": false,
+        "topProject": true,
         "upvotes": 89,
         "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur sapien in tortor condimentum",
         "content": [
@@ -44,6 +46,8 @@ export default Posts = [
         "id": 539827,
         "name": "gametheory",
         "title": "Second Blog Post",
+        "topPost": true,
+        "topProject": false,
         "upvotes": 64,
         "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur sapien in tortor condimentum",
         "content": [
@@ -86,6 +90,8 @@ export default Posts = [
         "_id": "5e551887d4756f3454049d35",
         "name": "prisoners-dilemma",
         "title": "The Prisoner's Dilemma",
+        "topPost": true,
+        "topProject": false,
         "heading": "The prisoner's dilemma is a standard example of a game analyzed in game theory that shows why two completely rational individuals might not cooperate, even if it appears that it is in their best interests to do so.",
         "upvotes": 25,
         "content": [
