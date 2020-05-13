@@ -7,11 +7,13 @@ const TimeLine = () => {
     const pdfUrl = process.env.PUBLIC_URL + '/resume.pdf'
     return (
         <>
-        <h2 style={{marginLeft: "20%"}}>
-            Resume
-        </h2>
-        <div style={{marginLeft: "20%", marginBottom: "2%"}}>
-            <p>You can view my resume <a href={pdfUrl} target="_blank">here</a>.</p>
+        <div class="resume-container">
+            <h2>
+                Resume
+            </h2>
+            <div>
+                <p>You can view my resume <a href={pdfUrl} target="_blank">here</a>.</p>
+            </div>
         </div>
         <div className="timeline-fade">
         </div>

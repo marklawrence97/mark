@@ -2,3 +2,10 @@
     width: 60%;
     margin: 2% 20%;
 }
+
+@media only screen and (max-width: 650px) {
+    .posts {
+        width: 90%;
+        margin: 2% 5%;
+    }
+}

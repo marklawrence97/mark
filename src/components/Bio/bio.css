@@ -10,3 +10,10 @@
 .bio-end {
     margin: 5% 0%!important;
 }
+
+@media only screen and (max-width: 650px) {
+    .bio {
+        width: 90%;
+        margin: 2% 5%;
+    }
+}

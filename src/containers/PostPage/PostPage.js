@@ -2,6 +2,7 @@ import React from "react";
 import Posts from '../../posts/posts';
 import BlogSection from "../../components/BlogPost/BlogSection";
 import "./prism.css";
+import "./PostPage.css";
 
 class PostPage extends React.Component {
   state = {
@@ -14,7 +15,7 @@ class PostPage extends React.Component {
     const { articleInfo } = this.state;
 
     return (
-      <div style={{margin: "3% 20%"}}>
+      <div className="post-container">
         <a id="top"></a>
         <div
           style={{

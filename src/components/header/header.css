@@ -42,3 +42,10 @@
         margin-bottom: 0.67em;
     }
 }
+
+@media only screen and (max-width: 650px) {
+    .header-container {
+        margin: 2% 5%;
+        width: 90%;
+    }
+}
