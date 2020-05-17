@@ -10,12 +10,12 @@ export const posts = [
     },
     {
         id: 2,
-        header: "Evolutionary Game Theory",
+        header: "On Meditation",
         url:"gametheory",
         top: false,
         date: new Date().toLocaleDateString(),
-        description: "We will be looking at the Prisoner's Dilemma",
-        image: "https://images.unsplash.com/photo-1513159446162-54eb8bdaa79b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+        description: "My thoughts on meditation",
+        image: "https://images.unsplash.com/photo-1526779259212-939e64788e3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1053&q=80"
     },
 ]
 
