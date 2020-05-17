@@ -11,7 +11,7 @@ export const posts = [
     {
         id: 2,
         header: "On Meditation",
-        url:"gametheory",
+        url:"meditation",
         top: false,
         date: new Date().toLocaleDateString(),
         description: "My thoughts on meditation",

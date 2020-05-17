@@ -87,13 +87,11 @@ export default Posts = [
         ]
     },
     {
-        "_id": "5e551887d4756f3454049d35",
-        "name": "prisoners-dilemma",
-        "title": "The Prisoner's Dilemma",
-        "topPost": true,
-        "topProject": false,
-        "heading": "The prisoner's dilemma is a standard example of a game analyzed in game theory that shows why two completely rational individuals might not cooperate, even if it appears that it is in their best interests to do so.",
-        "upvotes": 25,
+        "_id": "5ec0eedf7cd0c730a45026a9",
+        "name": "meditation",
+        "title": "On Meditation",
+        "heading": "In my second year of University, I was introduced to meditation. In this article, I will be discussing my thoughts and experiences with the practice.",
+        "upvotes": 0,
         "content": [
             {
                 "codeSnippit": {
@@ -102,10 +100,10 @@ export default Posts = [
                 },
                 "heading": "",
                 "imageInfo": {
-                    "imageUrl": "https://images.unsplash.com/photo-1549880338-65ddcdfd017b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+                    "imageUrl": "https://images.unsplash.com/photo-1526779259212-939e64788e3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1053&q=80",
                     "imageAlt": ""
                 },
-                "textContent": "This is just example content."
+                "textContent": ""
             }
         ]
     }
